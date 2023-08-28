@@ -27,7 +27,6 @@ $ git clone https://github.com/Priyam-bridgedit/Layby-Info-Report.git
 $ cd Layby-Info-Report
 Install the required dependencies:
 bash
-Copy code
 $ pip install -r requirements.txt
 Usage
 To use the LaybyInfo Reports Generator:
@@ -35,7 +34,6 @@ To use the LaybyInfo Reports Generator:
 Configure the necessary settings in the config.py file.
 Run the main script:
 bash
-Copy code
 $ python laybyreport.py
 The tool will generate sales reports for Layby Info based on the configured settings.
 
@@ -44,11 +42,9 @@ To create a standalone executable from the Python code:
 
 Open a terminal and navigate to the location of setup.py:
 bash
-Copy code
 $ cd /path/to/laybyinfo-reports-generator
 Build the executable using the following command:
 bash
-Copy code
 $ python setup.py build
 The resulting executable will be located in the build directory.
 
